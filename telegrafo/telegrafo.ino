@@ -22,6 +22,7 @@
 // Quantidade de pontos na altura. Quanto maior, menor serão as letras
 #define SERVO_STEPS 25
 
+// Calcula o tamanho de cada passo do servomotor
 #define SERVO_STEP (SERVO_MAX - SERVO_MIN) / SERVO_STEPS
 
 // Tempo que o servomotor leva para se mover de ponto a ponto, em milissegundos
